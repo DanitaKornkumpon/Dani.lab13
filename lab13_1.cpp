@@ -52,7 +52,7 @@ void stat(const double A[],int N,double B[]){
        if(A[i]>Max) Max=A[i];
        if(A[i]<Min) Min=A[i];
     }
-       B[4]= 12.50;
-       B[5]= 0.50;
+       B[4]= Max;
+       B[5]= Min;
    
 }
