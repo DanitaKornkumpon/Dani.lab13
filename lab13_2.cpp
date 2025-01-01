@@ -11,7 +11,7 @@ void showImage(const bool [][M]);
 
 int main()
 {
-    bool image[N][M] s= {};
+    bool image[N][M] = {};
     int s,x,y;
     do{
         showImage(image);
